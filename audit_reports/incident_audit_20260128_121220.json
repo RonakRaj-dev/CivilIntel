@@ -1,0 +1,169 @@
+{
+  "audit_metadata": {
+    "audit_time": "2026-01-28T12:12:20.545568",
+    "video_file": "C:\\Users\\gamer\\OneDrive\\Desktop\\PushpamProject\\assets\\harr_3.mp4",
+    "video_exists": true,
+    "file_size_mb": 1.9
+  },
+  "user_input": {
+    "description": "A person walking alone is suddenly approached from behind by another individual in what appears to be an assault attempt",
+    "timestamp": "2024-01-27 14:30:00",
+    "location": [
+      37.7749,
+      -122.4194
+    ]
+  },
+  "metadata_validation": {
+    "file_type": "video",
+    "metadata": {
+      "timestamp": "2025-09-27 14:22:20.129203",
+      "gps": null,
+      "camera_model": null,
+      "camera_make": null,
+      "orientation": null,
+      "software": null,
+      "has_metadata": true,
+      "metadata_count": 0,
+      "fps": 25.0,
+      "frame_count": 604,
+      "width": 360,
+      "height": 640
+    },
+    "timestamp_validation": {
+      "score": 0.2,
+      "exif_timestamp": "2025-09-27 14:22:20.129203",
+      "user_timestamp": "2024-01-27 14:30:00"
+    },
+    "gps_validation": {
+      "score": 0.5,
+      "exif_gps": null,
+      "user_gps": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    "authenticity": {
+      "score": 0.0,
+      "details": {}
+    },
+    "metadata_score": 0.325,
+    "warnings": [
+      "\u26a0\ufe0f Missing GPS data"
+    ]
+  },
+  "threat_detection": {
+    "video_metadata": {
+      "filename": "harr_3.mp4",
+      "duration": 24.16,
+      "frames_sampled": 11
+    },
+    "frame_by_frame": [
+      {
+        "frame_number": 0,
+        "timestamp_sec": 0.0,
+        "timestamp_formatted": "0:00:00",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 60,
+        "timestamp_sec": 2.4,
+        "timestamp_formatted": "0:00:02",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 4.8,
+        "timestamp_formatted": "0:00:04",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 180,
+        "timestamp_sec": 7.2,
+        "timestamp_formatted": "0:00:07",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 240,
+        "timestamp_sec": 9.6,
+        "timestamp_formatted": "0:00:09",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 300,
+        "timestamp_sec": 12.0,
+        "timestamp_formatted": "0:00:12",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 14.4,
+        "timestamp_formatted": "0:00:14",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 420,
+        "timestamp_sec": 16.8,
+        "timestamp_formatted": "0:00:16",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 480,
+        "timestamp_sec": 19.2,
+        "timestamp_formatted": "0:00:19",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 540,
+        "timestamp_sec": 21.6,
+        "timestamp_formatted": "0:00:21",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      },
+      {
+        "frame_number": 600,
+        "timestamp_sec": 24.0,
+        "timestamp_formatted": "0:00:24",
+        "category": "non_threat",
+        "confidence": 0.3,
+        "justification": "Unstructured response: answer en Task: Public Safety Audit. Categorize into ONE: physical_violence, weapon_presence, injure"
+      }
+    ],
+    "summary": {
+      "threat_detected": false,
+      "threat_level": "none",
+      "message": "No safety violations detected in sampled frames."
+    }
+  },
+  "credibility_assessment": {
+    "credibility_score": 0.514,
+    "credibility_level": "low",
+    "recommendation": "\u274c Report questionable - Low confidence, requires manual review",
+    "component_scores": {
+      "threat_detection": 0.5,
+      "metadata_validation": 0.325,
+      "description_quality": 1.0
+    },
+    "red_flags": [
+      "\u26a0\ufe0f Missing GPS data"
+    ]
+  }
+}

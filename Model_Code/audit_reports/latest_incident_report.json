@@ -1,0 +1,70 @@
+{
+  "audit_metadata": {
+    "audit_time": "2026-01-28T11:33:15.597406",
+    "video_file": "C:\\Users\\gamer\\OneDrive\\Desktop\\PushpamProject\\assets\\harr_1.mp4",
+    "video_exists": true,
+    "file_size_mb": 19.36
+  },
+  "user_input": {
+    "description": "A person walking alone is suddenly approached from behind by another individual in what appears to be an assault attempt",
+    "timestamp": "2024-01-27 14:30:00",
+    "location": [
+      37.7749,
+      -122.4194
+    ]
+  },
+  "metadata_validation": {
+    "file_type": "video",
+    "metadata": {
+      "timestamp": "2025-09-27 14:19:49.035699",
+      "gps": null,
+      "camera_model": null,
+      "camera_make": null,
+      "orientation": null,
+      "software": null,
+      "has_metadata": true,
+      "metadata_count": 0,
+      "fps": 15.151515151515152,
+      "frame_count": 7876,
+      "width": 360,
+      "height": 270
+    },
+    "timestamp_validation": {
+      "score": 0.2,
+      "exif_timestamp": "2025-09-27 14:19:49.035699",
+      "user_timestamp": "2024-01-27 14:30:00"
+    },
+    "gps_validation": {
+      "score": 0.5,
+      "exif_gps": null,
+      "user_gps": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    "authenticity": {
+      "score": 0.0,
+      "details": {}
+    },
+    "metadata_score": 0.325,
+    "warnings": [
+      "\u26a0\ufe0f Missing GPS data"
+    ]
+  },
+  "threat_detection": {
+    "error": "Model not loaded"
+  },
+  "credibility_assessment": {
+    "credibility_score": 0.514,
+    "credibility_level": "low",
+    "recommendation": "\u274c Report questionable - Low confidence, requires manual review",
+    "component_scores": {
+      "threat_detection": 0.5,
+      "metadata_validation": 0.325,
+      "description_quality": 1.0
+    },
+    "red_flags": [
+      "\u26a0\ufe0f Missing GPS data"
+    ]
+  }
+}
